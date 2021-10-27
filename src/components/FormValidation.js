@@ -20,7 +20,7 @@ function FormValidation() {
                   <Form.Field>
                        <label>Last Name</label>
                        <input placeholder="Enter your last name" type="text" {...register("lastName", { required: true, maxLength: 12})} />
-                       {errors.lastName && <p style={{color: "red"}}>Please check the Last Name</p>}
+                       {errors.lastName && <p style={{color: "red"}}> Please check the Last Name </p>}
                   </Form.Field>
                   <Form.Field>
                   <label>E-mail</label>
